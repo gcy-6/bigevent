@@ -17,5 +17,14 @@ var category = {
         }, function(res) {
             callback(res)
         })
+    },
+    edit: function(id, name, slug, callback) {
+        $.post(APIURLS.user_category_edit, {
+            id: id,
+            name: name,
+            slug: slug
+        }, function(res) {
+            callback(res)
+        })
     }
 }

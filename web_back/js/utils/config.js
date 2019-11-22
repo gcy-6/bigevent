@@ -7,4 +7,6 @@ var APIURLS = {
     user_category_show: baseUrl + 'admin/category_search',
     user_category_del: baseUrl + 'admin/category_delete',
     user_category_add: baseUrl + 'admin/category_add',
+    user_category_edit: baseUrl + 'admin/category_edit',
+
 }
